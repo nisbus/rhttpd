@@ -3,7 +3,7 @@
 -export([welcome/0, get_version/0]).
 
 welcome() ->
-    io:format("Refuge ~s has started.~n", [get_version()]).
+    io:format("refuge ~s has started.~n", [get_version()]).
 
 get_version() ->
     Releases = release_handler:which_releases(),
