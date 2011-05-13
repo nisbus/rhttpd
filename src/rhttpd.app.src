@@ -1,0 +1,6 @@
+{application, rhttpd,
+ [
+  {description, "Refuge HTTPD layer"},
+  {vsn, "0.0.1"}
+]}.
+

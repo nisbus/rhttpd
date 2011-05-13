@@ -1,0 +1,15 @@
+*.o
+*.so
+*.Tpo
+*.beam
+erl_crash.dump
+
+ebin
+
+# vim 
+*.swp
+*.dump
+
+# rebar deps
+deps
+
